@@ -1,3 +1,9 @@
+grails{
+    mongo{
+        connectionString = "mongodb://localhost/fitfriendsdb"
+    }
+}
+
 dataSource {
     pooled = true
     jmxExport = true
